@@ -15,6 +15,7 @@ module RailsTestApp
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+<<<<<<< HEAD
  
 # Add the fonts path
     config.assets.paths << "#{Rails.root}/app/assets/fonts"
@@ -22,5 +23,7 @@ module RailsTestApp
     # Precompile additional assets
     config.assets.precompile += %w( .svg .eot .woff .ttf )
 
+=======
+>>>>>>> cfaac413c0fe9a96b6751ffa96926f7c51438228
   end
 end

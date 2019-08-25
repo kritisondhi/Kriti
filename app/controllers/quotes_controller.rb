@@ -1,6 +1,5 @@
 class QuotesController < ApplicationController
   def index
-<<<<<<< HEAD
     @quote = Quote.order("RANDOM()").first
   end
 
@@ -23,8 +22,4 @@ end
     params.require(:quote).permit(:saying, :author)
   end
 end
-=======
-      @quote = Quote.order("RANDOM()").first
-  end
-end
->>>>>>> cfaac413c0fe9a96b6751ffa96926f7c51438228
+
